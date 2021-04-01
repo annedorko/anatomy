@@ -1,0 +1,54 @@
+[18-May-2014 13:23:56] PHP Warning:  include(stylesheets/skins/fonts_3Dpristine.css) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/gamblor/public_html/wp-content/themes/anatomy/css.php on line 63
+[18-May-2014 13:23:56] PHP Warning:  include(stylesheets/skins/fonts_3Dpristine.css) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/gamblor/public_html/wp-content/themes/anatomy/css.php on line 63
+[18-May-2014 13:23:56] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'stylesheets/skins/fonts_3Dpristine.css' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/gamblor/public_html/wp-content/themes/anatomy/css.php on line 63
+[18-May-2014 13:24:43] PHP Warning:  include(stylesheets/skins/fonts_3Dpristine.css) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/gamblor/public_html/wp-content/themes/anatomy/css.php on line 63
+[18-May-2014 13:24:43] PHP Warning:  include(stylesheets/skins/fonts_3Dpristine.css) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/gamblor/public_html/wp-content/themes/anatomy/css.php on line 63
+[18-May-2014 13:24:43] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'stylesheets/skins/fonts_3Dpristine.css' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/gamblor/public_html/wp-content/themes/anatomy/css.php on line 63
+[15-Dec-2014 10:39:46 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/gamblor/public_html/wp-content/themes/anatomy/index.php on line 1
+[02-Feb-2015 18:57:35 America/Chicago] PHP Warning:  include(stylesheets/skins/fonts_pristine ' aNd '8'='8.css): failed to open stream: No such file or directory in /home/gamblor/public_html/wp-content/themes/anatomy/css.php on line 63
+[02-Feb-2015 18:57:35 America/Chicago] PHP Warning:  include(stylesheets/skins/fonts_pristine ' aNd '8'='8.css): failed to open stream: No such file or directory in /home/gamblor/public_html/wp-content/themes/anatomy/css.php on line 63
+[02-Feb-2015 18:57:35 America/Chicago] PHP Warning:  include(): Failed opening 'stylesheets/skins/fonts_pristine ' aNd '8'='8.css' for inclusion (include_path='.:/opt/php54/lib/php') in /home/gamblor/public_html/wp-content/themes/anatomy/css.php on line 63
+[02-Feb-2015 18:57:37 America/Chicago] PHP Warning:  include(stylesheets/skins/fonts_pristine ' aNd '8'='9.css): failed to open stream: No such file or directory in /home/gamblor/public_html/wp-content/themes/anatomy/css.php on line 63
+[02-Feb-2015 18:57:37 America/Chicago] PHP Warning:  include(stylesheets/skins/fonts_pristine ' aNd '8'='9.css): failed to open stream: No such file or directory in /home/gamblor/public_html/wp-content/themes/anatomy/css.php on line 63
+[02-Feb-2015 18:57:37 America/Chicago] PHP Warning:  include(): Failed opening 'stylesheets/skins/fonts_pristine ' aNd '8'='9.css' for inclusion (include_path='.:/opt/php54/lib/php') in /home/gamblor/public_html/wp-content/themes/anatomy/css.php on line 63
+[02-Feb-2015 18:57:41 America/Chicago] PHP Warning:  include(stylesheets/skins/green ' aNd '8'='8.css): failed to open stream: No such file or directory in /home/gamblor/public_html/wp-content/themes/anatomy/css.php on line 22
+[02-Feb-2015 18:57:41 America/Chicago] PHP Warning:  include(stylesheets/skins/green ' aNd '8'='8.css): failed to open stream: No such file or directory in /home/gamblor/public_html/wp-content/themes/anatomy/css.php on line 22
+[02-Feb-2015 18:57:41 America/Chicago] PHP Warning:  include(): Failed opening 'stylesheets/skins/green ' aNd '8'='8.css' for inclusion (include_path='.:/opt/php54/lib/php') in /home/gamblor/public_html/wp-content/themes/anatomy/css.php on line 22
+[02-Feb-2015 18:57:43 America/Chicago] PHP Warning:  include(stylesheets/skins/green ' aNd '8'='9.css): failed to open stream: No such file or directory in /home/gamblor/public_html/wp-content/themes/anatomy/css.php on line 22
+[02-Feb-2015 18:57:43 America/Chicago] PHP Warning:  include(stylesheets/skins/green ' aNd '8'='9.css): failed to open stream: No such file or directory in /home/gamblor/public_html/wp-content/themes/anatomy/css.php on line 22
+[02-Feb-2015 18:57:43 America/Chicago] PHP Warning:  include(): Failed opening 'stylesheets/skins/green ' aNd '8'='9.css' for inclusion (include_path='.:/opt/php54/lib/php') in /home/gamblor/public_html/wp-content/themes/anatomy/css.php on line 22
+[20-Jul-2015 03:53:27 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/gamblor/public_html/wp-content/themes/anatomy/404.php on line 1
+[18-Sep-2015 20:46:03 America/Chicago] PHP Fatal error:  Call to undefined function have_comments() in /home/gamblor/public_html/wp-content/themes/anatomy/comments.php on line 2
+[22-Sep-2015 10:01:50 America/Chicago] PHP Fatal error:  Call to undefined function have_comments() in /home/gamblor/public_html/wp-content/themes/anatomy/comments.php on line 2
+[01-Mar-2016 02:09:33 America/Detroit] PHP Fatal error:  Call to undefined function language_attributes() in /home/gamblor/public_html/wp-content/themes/anatomy/header.php on line 2
+[01-Mar-2016 02:09:33 America/Detroit] PHP Fatal error:  Call to undefined function add_theme_support() in /home/gamblor/public_html/wp-content/themes/anatomy/functions.php on line 4
+[01-Mar-2016 02:09:33 America/Detroit] PHP Fatal error:  Call to undefined function dynamic_sidebar() in /home/gamblor/public_html/wp-content/themes/anatomy/footer.php on line 3
+[01-Mar-2016 02:09:35 America/Detroit] PHP Fatal error:  Call to undefined function get_header() in /home/gamblor/public_html/wp-content/themes/anatomy/archive.php on line 1
+[01-Mar-2016 02:09:36 America/Detroit] PHP Fatal error:  Call to undefined function get_header() in /home/gamblor/public_html/wp-content/themes/anatomy/404.php on line 1
+[01-Mar-2016 14:58:50 America/Detroit] PHP Fatal error:  Call to undefined function language_attributes() in /home/gamblor/public_html/wp-content/themes/anatomy/header.php on line 2
+[01-Mar-2016 14:58:50 America/Detroit] PHP Fatal error:  Call to undefined function add_theme_support() in /home/gamblor/public_html/wp-content/themes/anatomy/functions.php on line 4
+[01-Mar-2016 14:58:50 America/Detroit] PHP Fatal error:  Call to undefined function dynamic_sidebar() in /home/gamblor/public_html/wp-content/themes/anatomy/footer.php on line 3
+[01-Mar-2016 14:58:51 America/Detroit] PHP Fatal error:  Call to undefined function get_header() in /home/gamblor/public_html/wp-content/themes/anatomy/archive.php on line 1
+[01-Mar-2016 14:58:51 America/Detroit] PHP Fatal error:  Call to undefined function get_header() in /home/gamblor/public_html/wp-content/themes/anatomy/404.php on line 1
+[12-Mar-2016 21:43:14 America/Detroit] PHP Fatal error:  Call to undefined function add_theme_support() in /home/gamblor/public_html/wp-content/themes/anatomy/functions.php on line 4
+[12-Mar-2016 21:43:16 America/Detroit] PHP Fatal error:  Call to undefined function dynamic_sidebar() in /home/gamblor/public_html/wp-content/themes/anatomy/footer.php on line 3
+[13-Mar-2016 14:46:22 America/Detroit] PHP Fatal error:  Call to undefined function add_theme_support() in /home/gamblor/public_html/wp-content/themes/anatomy/functions.php on line 4
+[13-Mar-2016 14:46:22 America/Detroit] PHP Fatal error:  Call to undefined function dynamic_sidebar() in /home/gamblor/public_html/wp-content/themes/anatomy/footer.php on line 3
+[07-Jun-2016 21:07:38 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/gamblor/public_html/wp-content/themes/anatomy/404.php on line 1
+[07-Jul-2016 22:55:23 UTC] PHP Fatal error:  Call to undefined function add_theme_support() in /home/gamblor/public_html/wp-content/themes/anatomy/functions.php on line 4
+[08-Jul-2016 01:00:09 UTC] PHP Fatal error:  Call to undefined function add_theme_support() in /home/gamblor/public_html/wp-content/themes/anatomy/functions.php on line 4
+[26-Jul-2016 08:48:34 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/gamblor/public_html/wp-content/themes/anatomy/404.php on line 1
+[26-Jul-2016 10:46:17 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/gamblor/public_html/wp-content/themes/anatomy/404.php on line 1
+[02-Aug-2016 00:02:08 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/gamblor/public_html/wp-content/themes/anatomy/archive.php on line 1
+[02-Aug-2016 01:54:46 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/gamblor/public_html/wp-content/themes/anatomy/archive.php on line 1
+[03-Aug-2016 15:26:22 UTC] PHP Fatal error:  Call to undefined function add_theme_support() in /home/gamblor/public_html/wp-content/themes/anatomy/functions.php on line 4
+[06-Aug-2016 01:42:03 UTC] PHP Fatal error:  Call to undefined function add_theme_support() in /home/gamblor/public_html/wp-content/themes/anatomy/functions.php on line 4
+[06-Aug-2016 04:00:54 UTC] PHP Fatal error:  Call to undefined function add_theme_support() in /home/gamblor/public_html/wp-content/themes/anatomy/functions.php on line 4
+[06-Aug-2016 06:30:11 UTC] PHP Fatal error:  Call to undefined function add_theme_support() in /home/gamblor/public_html/wp-content/themes/anatomy/functions.php on line 4
+[07-Aug-2016 15:26:08 UTC] PHP Fatal error:  Call to undefined function language_attributes() in /home/gamblor/public_html/wp-content/themes/anatomy/header.php on line 2
+[07-Aug-2016 15:26:09 UTC] PHP Fatal error:  Call to undefined function dynamic_sidebar() in /home/gamblor/public_html/wp-content/themes/anatomy/footer.php on line 3
+[07-Aug-2016 19:11:22 UTC] PHP Fatal error:  Call to undefined function language_attributes() in /home/gamblor/public_html/wp-content/themes/anatomy/header.php on line 2
+[07-Aug-2016 19:11:23 UTC] PHP Fatal error:  Call to undefined function dynamic_sidebar() in /home/gamblor/public_html/wp-content/themes/anatomy/footer.php on line 3
+[10-Aug-2016 09:27:30 UTC] PHP Fatal error:  Call to undefined function add_theme_support() in /home/gamblor/public_html/wp-content/themes/anatomy/functions.php on line 4
+[11-Aug-2016 02:04:04 UTC] PHP Fatal error:  Call to undefined function add_theme_support() in /home/gamblor/public_html/wp-content/themes/anatomy/functions.php on line 4
+[11-Aug-2016 04:04:56 UTC] PHP Fatal error:  Call to undefined function add_theme_support() in /home/gamblor/public_html/wp-content/themes/anatomy/functions.php on line 4
