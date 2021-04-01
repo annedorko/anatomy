@@ -1,0 +1,278 @@
+body {
+	background: #111;
+	color: #EFEFEF;
+	text-shadow: 1px 1px 0 #000;
+}
+#tophat {
+	background: #EFEFEF;
+	-webkit-box-shadow: inset -2px -2px 6px 2px #DFDFDF;
+	box-shadow: inset -2px -2px 6px 2px #DFDFDF;
+}
+	#tophat ul li a {
+		color: #333;
+		text-shadow: 1px -1px 0 #DFDFDF;
+	}
+	#tophat ul li.title a {
+		color: #666;
+		text-shadow: 1px 1px 0 #FFF;
+	}
+	#tophat ul li.current_page_item a:after, #tophat ul li.current-page-ancestor a:after, #tophat ul li.current-post-parent a:after, #tophat ul li.current_page_parent a:after, #tophat li.current-menu-item a:after {
+		border-left: 5px solid transparent;
+		border-right: 5px solid transparent;
+		border-bottom: 5px solid #111;
+	}
+	#tophat .searchform input.s {
+		border-color: #999;
+	  background-color: #d1d1d1;
+	  background-image: -webkit-gradient(linear, left top, left bottom, from(#d1d1d1), to(#f0f0f0));
+	  background-image: -webkit-linear-gradient(top, #d1d1d1, #f0f0f0);
+	  background-image:    -moz-linear-gradient(top, #d1d1d1, #f0f0f0);
+	  background-image:      -o-linear-gradient(top, #d1d1d1, #f0f0f0);
+	  background-image:         linear-gradient(to bottom, #d1d1d1, #f0f0f0);
+	}
+	#tophat .searchform input.s:focus {
+		background: #EFEFEF;
+		border-color: #666;
+	  -webkit-box-shadow: inset 1px 1px 3px 0px #666;
+	          box-shadow: inset 1px 1px 3px 0px #666;
+	}
+	#tophat .searchform .searchsubmit {
+		background: none;
+		border: none;
+		color: #666;
+		text-shadow: 1px 1px 1px #EFEFEF;
+		font-size: 1em;
+	}
+@media only screen and (max-width: 767px) {
+	#tophat ul li.current_page_item a:after, #tophat ul li.current-page-ancestor a:after, #tophat ul li.current-post-parent a:after, #tophat ul li.current_page_parent a:after, #tophat li.current-menu-item a:after {
+		border-top: 4px solid transparent;
+		border-bottom: 4px solid transparent; 
+		border-left:4px solid #111;
+	}
+}
+.search_box {
+	border: 1px solid #333;
+  background-color: #4a4a4a;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#4a4a4a), to(#242424));
+  background-image: -webkit-linear-gradient(top, #4a4a4a, #242424);
+  background-image:    -moz-linear-gradient(top, #4a4a4a, #242424);
+  background-image:      -o-linear-gradient(top, #4a4a4a, #242424);
+  background-image:         linear-gradient(to bottom, #4a4a4a, #242424);
+
+
+  -webkit-box-shadow: inset 1px 1px 0px 0px #777;
+          box-shadow: inset 1px 1px 0px 0px #777;
+}
+	.search_box form {
+		background: #111;
+	  -webkit-box-shadow: 0px 0px 8px 0px #222;
+	          box-shadow: 0px 0px 8px 0px #222;
+	}
+	.search_box input#s {
+		color: #FFF;
+		border-color: #444;
+
+	  background-color: #4a4a4a;
+	  background-image: -webkit-gradient(linear, left top, left bottom, from(#4a4a4a), to(#808080));
+	  background-image: -webkit-linear-gradient(top, #4a4a4a, #808080);
+	  background-image:    -moz-linear-gradient(top, #4a4a4a, #808080);
+	  background-image:      -o-linear-gradient(top, #4a4a4a, #808080);
+	  background-image:         linear-gradient(to bottom, #4a4a4a, #808080);
+	}
+	.search_box #searchsubmit {
+		color: #EFEFEF;
+		text-shadow: 1px 1px 0 #000;
+		
+		border-color: #222;
+		
+	  background-color: #383838;
+	  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #383838), color-stop(50%, #4f4f4f));
+	  background-image: -webkit-linear-gradient(top, #383838 0%, #4f4f4f 50%, #383838 50%, #4f4f4f 100%);
+	  background-image:    -moz-linear-gradient(top, #383838 0%, #4f4f4f 50%, #383838 50%, #4f4f4f 100%);
+	  background-image:      -o-linear-gradient(top, #383838 0%, #4f4f4f 50%, #383838 50%, #4f4f4f 100%);
+	  background-image:         linear-gradient(top, #383838 0%, #4f4f4f 50%, #383838 50%, #4f4f4f 100%);
+	
+		-webkit-box-shadow: inset 1px 1px 2px 0px #666;
+	          box-shadow: inset 1px 1px 2px 0px #666;
+	}
+		.search_box #searchsubmit:hover {
+			background-color: #333;
+		  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #333), color-stop(50%, #5c5c5c));
+		  background-image: -webkit-linear-gradient(top, #333 0%, #454545 50%, #333 50%, #454545 100%);
+		  background-image:    -moz-linear-gradient(top, #333 0%, #454545 50%, #333 50%, #454545 100%);
+		  background-image:      -o-linear-gradient(top, #333 0%, #454545 50%, #333 50%, #454545 100%);
+		  background-image:         linear-gradient(top, #333 0%, #454545 50%, #333 50%, #454545 100%);
+		}
+.social-profiles .color-grayscale li a {
+	color: #CCC;
+}
+#regular_menu, #tophat + .container .menu ul {
+	border: 1px solid #333;
+
+  -webkit-border-radius: 6px;
+          border-radius: 6px;
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+
+  -webkit-box-shadow: inset 1px 1px 4px 0px #000;
+          box-shadow: inset 1px 1px 4px 0px #000;
+}
+	#regular_menu li {
+	 
+	  background-color: #cccccc;
+	  background-image: -webkit-gradient(linear, left top, left bottom, from(#cccccc), to(#EFEFEF));
+	  background-image: -webkit-linear-gradient(top, #cccccc, #EFEFEF);
+	  background-image:    -moz-linear-gradient(top, #cccccc, #EFEFEF);
+	  background-image:      -o-linear-gradient(top, #cccccc, #EFEFEF);
+	  background-image:         linear-gradient(to bottom, #cccccc, #EFEFEF);
+
+		-webkit-box-shadow: inset 1px 1px 0px 0px #666;
+	          box-shadow: inset 1px 1px 0px 0px #666;
+	}
+	#regular_menu li a {
+		background: url( 'images/semitrans-noise_dark.png' );
+		-webkit-box-shadow: 1px 1px 1px 0px #333;
+	          box-shadow: 1px 1px 1px 0px #333;
+		color: #111;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: .9em;
+		text-shadow: 1px -1px 0 #EFEFEF;
+	}
+		#regular_menu li a:hover {
+			color: #000;
+		}
+		#regular_menu li.current_page_item a, #regular_menu li.current-menu-item a, #regular_menu li.current-page-ancestor a, #regular_menu li.current-post-parent a, #regular_menu li.current_page_parent a {
+			color: #EFEFEF;
+		}
+	
+h1, h2, h3, h4, h5, h6 {
+	color: #EFEFEF;
+}
+	h2.the_title ~ h2, h2.clean {
+		border-bottom: 1px solid #333;
+	}
+	h3 {
+		color: #EFEFEF;
+		text-shadow: 1px 1px 3px #000;
+	}
+	.archive_title {
+		color: #999;
+	}
+strong {
+	color: #CCC;
+}
+blockquote {
+	border-color: #333;
+}
+	blockquote ul, blockquote ol, blockquote p {
+		color: #FFF;
+	}
+.highlight {
+	background: #333;
+	padding: 1px 3px 0 6px;
+	color: #FFFBCC;
+	text-shadow: 1px 1px 0 #000;
+}
+.wp-caption, article img, .gallery-caption {
+	color: #111;
+	text-shadow: 1px 1px 0 #CCC;
+	background: #FFF;
+	border: 1px solid #CCC;
+  -webkit-box-shadow: 2px 2px 6px 0px #000;
+          box-shadow: 2px 2px 6px 0px #000;
+}
+.callout, article p.credits {
+	background: #000;
+	border: 1px solid #111;
+	
+  -webkit-box-shadow: inset 1px 1px 0px 0px #222;
+          box-shadow: inset 1px 1px 0px 0px #222;
+}
+	article p.credits {
+		padding: 6px 10px 2px 10px;
+	}
+ul.pagination {
+	color: #000;
+}
+	.pagination li a.page-numbers {
+		-webkit-box-shadow: 1px 1px 3px 0px #222;
+	          box-shadow: 1px 1px 3px 0px #222;
+	}
+article {
+	
+}
+	article.partial_entry .the_excerpt {
+		border-color: #333;
+	}
+	article .tags strong, .dictionary.tags li {
+		color: #FFF;
+	}
+	article .tags i {
+		color: #CCC;
+	}
+	article .tags a {
+		background: #222;
+		color: #CCC;
+	}
+	article .post_meta {
+		background: #111;
+		border-color: #000;
+		color: #999;
+	}
+.comments-intro {
+	background: #111;
+	border-color: #000;
+}
+	.comment {
+		color: #111;
+		text-shadow: 1px 1px 0 #CCC;
+	}
+	.commentlist .comment .vcard {
+		color: #999;
+		text-shadow: 1px 1px 0 #000;
+	}
+	#wp-calendar {
+		width: 100%;
+		font-size: .9em;
+		background: none;
+		border: 1px solid #ededed;
+
+	  -webkit-border-radius: 6px;
+	          border-radius: 6px;
+	  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+
+	  -webkit-box-shadow: inset 1px 1px 4px 0px #EFEFEF;
+	          box-shadow: inset 1px 1px 4px 0px #EFEFEF;
+	}
+#wp-calendar {
+	border: 1px solid #000;
+
+  -webkit-box-shadow: inset 1px 1px 4px 0px #111;
+          box-shadow: inset 1px 1px 4px 0px #111;
+}
+	#wp-calendar thead {
+		background: #000;
+	}
+	#wp-calendar tbody {
+		text-align: center;
+	}
+		#wp-calendar tbody tr:nth-child(2n+2) {
+			background: #000;
+		}
+	#wp-calendar tfoot {
+		background: #222;
+	}
+.foot {
+	
+}
+	.foot a {
+		border-bottom: 1px solid #333;
+	}
+	.foot h4 {
+		
+	}
+.footer ul li a {
+	background: #111;
+	border: 0;
+}

@@ -1,0 +1,32 @@
+/* Green is Gray & Green themed */
+
+a {
+	color: #3E9E1D;
+	text-decoration: none;
+}
+a:hover {
+	color: #1e540a;
+	text-decoration: underline;
+}
+a:visited {
+	color: #2AA000;
+}
+
+/* Current page colors */
+
+#regular_menu li.current_page_item, #regular_menu li.current-menu-item, #regular_menu li.current-page-ancestor, #regular_menu li.current-post-parent, #regular_menu li.current_page_parent {
+
+  background-color: #328f0d;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#328f0d), to(#2f800a));
+  background-image: -webkit-linear-gradient(top, #328f0d, #2f800a);
+  background-image:    -moz-linear-gradient(top, #328f0d, #2f800a);
+  background-image:      -o-linear-gradient(top, #328f0d, #2f800a);
+  background-image:         linear-gradient(to bottom, #328f0d, #2f800a);
+
+
+	-webkit-box-shadow: inset 1px 1px 2px 0px #5ee02f;
+          box-shadow: inset 1px 1px 2px 0px #5ee02f;
+}
+#regular_menu li.current_page_item a, #regular_menu li.current-menu-item a, #regular_menu li.current-page-ancestor a, #regular_menu li.current-post-parent a, #regular_menu li.current_page_parent a {
+	text-shadow: 1px -1px 0 #2d840f;
+}

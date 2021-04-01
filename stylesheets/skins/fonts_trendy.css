@@ -1,0 +1,12 @@
+body,h2.the_title ~ h2, h2.clean, blockquote {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+	h3 {
+		font-style: normal;
+	}
+	#tophat ul li.current_page_item a:after, #tophat ul li.current-page-ancestor a:after, #tophat ul li.current-post-parent a:after, #tophat ul li.current_page_parent a:after, #tophat li.current-menu-item a:after {
+		bottom: -11px;
+	}
+h1, h2, h3, h4, h5, h6, .wp-caption .wp-caption-text, .archive_title, .archive_title .browse_text, article .dictionary.related_heading, .commentlist .comment .author cite, .commentlist .comment .author cite .postauthor, .commentlist .comment .author .website {
+	font-family: 'Trocchi', Helvetica, Arial, sans-serif;
+}

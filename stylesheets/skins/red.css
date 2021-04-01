@@ -1,0 +1,30 @@
+/* Red is Gray & Red themed */
+
+a {
+	color: #cc0c32;
+	text-decoration: none;
+}
+a:hover {
+	color: #bc1a0b;
+	text-decoration: underline;
+}
+a:visited {
+	color: #aa0019;
+}
+
+/* Current page colors */
+
+#regular_menu li.current_page_item, #regular_menu li.current-menu-item, #regular_menu li.current-page-ancestor, #regular_menu li.current-post-parent, #regular_menu li.current_page_parent {
+  background-color: #aa0019;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#aa0019), to(#cc0c32));
+  background-image: -webkit-linear-gradient(top, #aa0019, #cc0c32);
+  background-image:    -moz-linear-gradient(top, #aa0019, #cc0c32);
+  background-image:      -o-linear-gradient(top, #aa0019, #cc0c32);
+  background-image:         linear-gradient(to bottom, #aa0019, #cc0c32);
+
+	-webkit-box-shadow: inset 1px 1px 2px 0px #ff4c6d;
+          box-shadow: inset 1px 1px 2px 0px #ff4c6d;
+}
+#regular_menu li.current_page_item a, #regular_menu li.current-menu-item a, #regular_menu li.current-page-ancestor a, #regular_menu li.current-post-parent a, #regular_menu li.current_page_parent a {
+	text-shadow: 1px -1px 0 #cc0c32;
+}

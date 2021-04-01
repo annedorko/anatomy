@@ -1,0 +1,13 @@
+/* Default is Gray & Orange themed */
+
+a {
+	color: #d67711;
+	text-decoration: none;
+}
+a:hover {
+	color: #bd670b;
+	text-decoration: underline;
+}
+a:visited {
+	color: #D17009;
+}

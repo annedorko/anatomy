@@ -1,0 +1,30 @@
+/* Blue is Gray & Blue themed */
+
+a {
+	color: #1d9df2;
+	text-decoration: none;
+}
+a:hover {
+	color: #158fdb;
+	text-decoration: underline;
+}
+a:visited {
+	color: #0077D3;
+}
+
+/* Current page colors */
+
+#regular_menu li.current_page_item, #regular_menu li.current-menu-item, #regular_menu li.current-page-ancestor, #regular_menu li.current-post-parent, #regular_menu li.current_page_parent {
+  background-color: #0062ad;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0062ad), to(#158fdb));
+  background-image: -webkit-linear-gradient(top, #0062ad, #158fdb);
+  background-image:    -moz-linear-gradient(top, #0062ad, #158fdb);
+  background-image:      -o-linear-gradient(top, #0062ad, #158fdb);
+  background-image:         linear-gradient(to bottom, #0062ad, #158fdb);
+
+	-webkit-box-shadow: inset 1px 1px 2px 0px #1d9df2;
+          box-shadow: inset 1px 1px 2px 0px #1d9df2;
+}
+#regular_menu li.current_page_item a, #regular_menu li.current-menu-item a, #regular_menu li.current-page-ancestor a, #regular_menu li.current-post-parent a, #regular_menu li.current_page_parent a {
+	text-shadow: 1px -1px 0 #0062ad;
+}

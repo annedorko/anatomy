@@ -1,0 +1,6 @@
+body,h2.the_title ~ h2, h2.clean {
+	font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+}
+h1, h2, h3, h4, h5, h6, .wp-caption .wp-caption-text, .archive_title, .archive_title .browse_text, article .dictionary.related_heading, .commentlist .comment .author cite, .commentlist .comment .author cite .postauthor, .commentlist .comment .author .website, blockquote {
+	font-family: 'Lora', Georgia, Times, sans-serif;
+}
